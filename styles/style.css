@@ -2,9 +2,9 @@ body {
   margin: auto;
 }
 
-div, header, main, footer, section, h1, h2, h3, h4, h5, h6, p, span, img, a {
+/* div, header, main, footer, section, h1, h2, h3, h4, h5, h6, p, span, img, a {
   border: blue 1px solid;
-}
+} */
 
 .page {
   min-width: 1100px;
@@ -28,14 +28,17 @@ div, header, main, footer, section, h1, h2, h3, h4, h5, h6, p, span, img, a {
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.logo {
   width: 228px;
   height: 32px;
+  background-image: url(/images/logo_place_header.svg);
+  background-repeat: no-repeat;
+}
+
+.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
-  background-image: url(/images/logo_place_header.svg);
-  background-repeat: no-repeat;
 }
 
 .header__title {
@@ -130,8 +133,6 @@ div, header, main, footer, section, h1, h2, h3, h4, h5, h6, p, span, img, a {
   align-items: center;
   flex-direction: column;
   padding: 0 0 100px 0;
-  min-height: 600px;
-  max-height: 756px;
 }
 
 .section-title, .section-subtitle {
@@ -287,7 +288,65 @@ div, header, main, footer, section, h1, h2, h3, h4, h5, h6, p, span, img, a {
 }
 
 .footer {
+  display: flex;
   background-color: #1f1f1f;
   color: white;
-  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 350px;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo_place_footer {
+  background-image: url(/images/logo_place_footer.svg);
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_author {
+  margin: 18px 0 18px 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer_column-heading {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.footer_column-link {
+  margin-left: 0;
+  padding-left: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
 }
