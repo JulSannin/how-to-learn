@@ -1,8 +1,8 @@
-body, div, header, main, footer, section, h1, h2, p, span, img, nav, ul, li a {
+body, div, header, main, footer, h1, h2, p, span, img, nav, ul, li a {
   margin: 0;
 }
 
-/* div, header, main, footer, section, h1, h2, p, span, img, nav, ul, li a {
+/* div, header, main, footer, h1, h2, p, span, img, nav, ul, li a {
   border: blue 1px solid;
 } */
 
