@@ -97,7 +97,6 @@ body, div, header, main, footer, section, h1, h2, p, span, img, nav, ul, li a {
 .two_columns__brief {
   display: block;
   width: 175px;
-  margin: 0;
   color: #2f80ed;
   font-size: 18px;
   line-height: 1.2em;
@@ -132,7 +131,6 @@ body, div, header, main, footer, section, h1, h2, p, span, img, nav, ul, li a {
 }
 
 .section-title, .section-subtitle {
-  margin: 0;
   width: 60%;
   text-align: center;
 }
@@ -323,7 +321,6 @@ body, div, header, main, footer, section, h1, h2, p, span, img, nav, ul, li a {
 
 .footer__column-links ul{
   list-style-type: none;
-  margin: 0;
   padding: 0;
   margin-bottom: 16px;
 }
