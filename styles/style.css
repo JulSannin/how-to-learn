@@ -45,6 +45,7 @@ li a {
 }
 
 .header__title {
+  margin: 0;
   max-width: 730px;
   margin-left: 64px;
   font-size: 102px;
@@ -54,6 +55,7 @@ li a {
 }
 
 .header__subtitle {
+  margin: 0;
   max-width: 388px;
   position: absolute;
   left: 64px;
@@ -175,7 +177,7 @@ li a {
 
 .table__heading {
   margin: 0;
-  margin-bottom: 20px;
+  margin-top: 20px;
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
@@ -183,14 +185,14 @@ li a {
 
 .table__text {
   margin: 0;
-  margin-bottom: 20px;
+  margin-top: 20px;
   font-size: 18px;
   line-height: 1.12;
   font-weight: normal;
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   text-align: center;
   z-index: 0;
@@ -206,11 +208,11 @@ li a {
 
 .feynman__title {
   max-width: 648px;
-  margin: 100px auto 0 auto;
-  padding-top: 100px;
+  margin: 0 auto 0 auto;
   font-size: 120px;
   line-height: 1.15;
   font-weight: 600;
+  padding-top: 100px;
 }
 
 .feynman__subtitle {
@@ -243,7 +245,7 @@ li a {
   overflow: hidden;
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
@@ -340,17 +342,13 @@ li a {
   list-style-type: none;
 }
 
-.footer__column-links_theme_dark {
-  background-color: black;
-  padding: 0 15px 0 15px;
-}
-
 .footer__column-link {
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
 }
 
 .footer__social-icon {
