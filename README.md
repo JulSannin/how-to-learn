@@ -19,8 +19,6 @@
   - Flexbox;
   - Grid Layout;
   - Positioning;
-  - Adaptive UI;
-  - Media Queries;
 - Методология БЭМ;
 - Файловая структура Nested БЭМ;
 - Работа с медиафайлами (HTML-video, iframe).
