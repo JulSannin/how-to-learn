@@ -12,7 +12,8 @@
 - Использование Nested БЭМ(файловая структура);
 
 ## Используемые технологии:
-- Microsoft Visual Studio Code
+- Microsoft Visual Studio Code;
+- Git;
 - HTML5;
 - CSS3:
   - Flexbox;
@@ -20,7 +21,6 @@
   - Positioning;
   - Adaptive UI;
   - Media Queries;
-- Git;
 - Методология БЭМ;
 - Файловая структура Nested БЭМ;
 - Работа с медиафайлами (HTML-video, iframe).
