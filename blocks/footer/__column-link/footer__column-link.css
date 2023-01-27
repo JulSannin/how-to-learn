@@ -1,8 +1,5 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
+  transition: 0.25s ease-in-out;
 }

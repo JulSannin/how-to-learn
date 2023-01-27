@@ -1,0 +1,4 @@
+.resources__link:hover {
+  transform: scale(1.25);
+  transition: 0.5s ease-in-out;
+}
