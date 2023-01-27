@@ -1,8 +1,0 @@
-.feynman__link:hover {
-  position: absolute;
-  color: #fff;
-  background: #2f80ed;
-  margin-right: -5px;
-  padding-right: -5px;
-  transition: 0.5s ease-in-out;
-}
